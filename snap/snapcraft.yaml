@@ -1,11 +1,26 @@
-name: my-snap-name # you probably want to 'snapcraft register <name>'
-version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
-summary: Single-line elevator pitch for your amazing snap # 79 char long summary
-description: |
-  This is my-snap's description. You have a paragraph or two to tell the
-  most important story about your snap. Keep it under 100 words though,
-  we live in tweetspace and your description wants to look good in the snap
-  store.
+name: kryoflux
+version: '2.6'
+summary: KryoFlux, the renowned forensic floppy controller
+description: >
+  KryoFlux is a USB-based device designed specifically for the reliability and
+  precision needed to acquire reliable low-level reads suitable for software
+  preservation. This is the official hardware developed by The Software
+  Preservation Society, an authority in authentic floppy disk imaging and
+  preservation. SPS experts are industry veterans with more than 25 years of
+  experience in computers and media archival, also including film restoration,
+  transfer and archival. The chances are you've used one of their applications
+  (e.g. X-Copy and Cyclone) or played one of their games (e.g. Abandoned Places)
+  in the past. Code designed by our engineers is being used in millions of
+  industrial and consumer products, including some next-gen game consoles.
+
+  If you are looking for the most reliable and fast transfer tool for floppy
+  disks, look no further. Its robustness and versatility have made KryoFlux the
+  de-facto standard at many universities, museums and archives around the globe.
+
+  The KryoFlux device is available for private/hobby users to buy from
+  http://webstore.kryoflux.com/catalog/. Professional customers and
+  institutional users, please contact the Software Preservation Society for a
+  quote at https://www.kryoflux.com/?page=comp_contact.
 
 confinement: devmode # use 'strict' once you have the right plugs and slots
 
